@@ -19,7 +19,7 @@ viết API thực hiện:
 - Liệt kê tất cả các sách của một Tác giả
 - Tìm hiểu thêm (phần mở rộng
 - Thực hiện phân trang cho các sách, API nhận thêm đầu vào là page_size và page_num. Kết quả trả về sẽ ở dạng các "trang" dữ liệu, mỗi trang có `page_size` bản ghi.
-Ví dụ:
+- Ví dụ:
  Có tất cả 100 cuốn sách trên hệ thống
  Gọi API: /books?page_size=10&page_num=1 sẽ trả về 10 bản ghi đầu tiên (trang thứ nhất: từ bản ghi số 0 tới bản ghi số 9)
  Gọi API: /books?page_size=10&page_num=2 sẽ trả về 10 bản ghi tiếp theo (trang thứ hai: từ bản ghi số 10 tới bản ghi số 19)
